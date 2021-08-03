@@ -292,11 +292,6 @@ input[type=text], select, oswald, sans-serif {
 
 @media screen and (max-width: 1600px)
 {
-#sunglass-dog-image{
-overflow: hidden;
-width: 600px;
-height: auto;
-}
 #text {
     font-size: x-large;
     margin-top: auto;
