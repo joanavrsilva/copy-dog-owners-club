@@ -72,7 +72,7 @@ h1, h2 {
 }
 /* cover-text */
 #cover-text {
-    font-size: 130%;
+    font-size: 100%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -237,7 +237,7 @@ input[type=text], select, oswald, sans-serif {
     
   /* Footer and social links*/
 #footer {
-    position: absolute
+    height: 2.5rem; 
 }
 
 .social-networks {
@@ -256,18 +256,18 @@ input[type=text], select, oswald, sans-serif {
 }
 
 /* media queries */
+
 @media screen and (max-width: 1280px) {
-    #sunglass-dog-image{
-        background: url(../images/dog-sunglass.jpg) no-repeat center center;
-        overflow: hidden;
-        position: relative;
-    }
+#sunglass-dog-image{
+    background: url(../images/dog-sunglass.jpg) no-repeat center center;
+    overflow: hidden;
 }
-@media screen and (max-width: 480px) {
+
 #cover-text {
     background-color:transparent;
     color: darkred;
-    text-align: center
+    text-align: center;
+    position: inherit;
 }
 
 #cover-text h2 {
@@ -276,20 +276,23 @@ input[type=text], select, oswald, sans-serif {
 
 #dogs-events div {
     display: inline-block;
-    width:100%;
-}
-
-#pictures {
-        clear: both;
-        line-height: 0;
-        column-count: 2;
-        column-gap: 0; 
-    }
-
-#contact {
-    height: 100%;
     width: 100%;
+}
+    
+#contact {
+    height: 600%;
+    width: 600%;
     position: relative;
     text-align: center; 
+}
+}
+
+@media screen and (max-width: 680px)
+{
+#pictures {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0; 
 }
 }
