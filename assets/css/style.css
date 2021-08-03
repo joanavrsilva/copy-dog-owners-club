@@ -275,8 +275,8 @@ input[type=text], select, oswald, sans-serif {
 }
     
 #contact {
-    height: 600%;
-    width: 600%;
+    width: 100%;
+    height: auto;
     position: relative;
     text-align: center; 
 }
@@ -290,5 +290,7 @@ input[type=text], select, oswald, sans-serif {
 {
 #pictures {
     column-count: 2;
+    width: 100%;
+    height: auto;
 }
 }
