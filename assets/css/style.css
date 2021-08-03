@@ -110,7 +110,6 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
-    margin-right: 40px; 
   }
 
 #dogs-events div {
@@ -251,8 +250,10 @@ input[type=text], select, oswald, sans-serif {
 
 @media screen and (max-width: 1280px) {
 #sunglass-dog-image{
-    background: url(../images/dog-sunglass.jpg) no-repeat center center;
     overflow: hidden;
+    width: 100%;
+    height: auto;
+
 }
 
 #text {
@@ -279,14 +280,15 @@ input[type=text], select, oswald, sans-serif {
     position: relative;
     text-align: center; 
 }
+#pictures {
+    width: 100%;
+    height: auto;
+}
 }
 
 @media screen and (max-width: 680px)
 {
 #pictures {
-    clear: both;
-    line-height: 0;
     column-count: 2;
-    column-gap: 0; 
 }
 }
