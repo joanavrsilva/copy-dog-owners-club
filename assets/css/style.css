@@ -250,13 +250,14 @@ input[type=text], select, oswald, sans-serif {
 }
 
 #text {
-    background-color:transparent;
+    background-color: transparent;
     border: darkred dotted;
     color: darkred;
     text-align: center;
-    position: inherit;
+    position: center;
     margin-left: 30px;
-    width: 100%;
+    margin-right:30px;
+    width:auto;
     height: auto;
 }
 
@@ -267,6 +268,8 @@ input[type=text], select, oswald, sans-serif {
 #dogs-events div {
     display: inline-block;
     width: 100%;
+    height: 50%;
+    padding: 30px;
 }
     
 #contact {
@@ -287,13 +290,5 @@ input[type=text], select, oswald, sans-serif {
     column-count: 2;
     width: 100%;
     height: auto;
-}
-}
-
-@media screen and (max-width: 1600px)
-{
-#text {
-    font-size: x-large;
-    margin-top: auto;
 }
 }
