@@ -62,30 +62,22 @@ h1, h2 {
 }
 
 /* hero-image sunglass dog */
-#sunglass-dog-image {
+img {
     height: 600px;
-    width: 100%;
-    background-size: 300px 100px;
-    background: url(../images/dog-sunglass.jpg) no-repeat center center;
-    overflow: hidden;
-    position: relative;
+    vertical-align: middle;
 }
-/* cover-text */
-#cover-text {
-    font-size: 100%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    width: 300px;
-    height: 250px;
-    padding: 30px;
-    background-color:rgb(146, 104, 104);
-    bottom: 30px;
-    right: 150px;
-    position: absolute; }
 
-#cover-text, #cover-text h2 {
-    color:white;
+#text{
+    display: inline-block;
+    background-color:brown;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    padding: 30px;
+}
+
+#text h2 {
+    color: white
 }
 
 /* Text-align about us, reasons and upcoming events */
@@ -263,14 +255,16 @@ input[type=text], select, oswald, sans-serif {
     overflow: hidden;
 }
 
-#cover-text {
+#text {
     background-color:transparent;
+    border: darkred dotted;
     color: darkred;
     text-align: center;
     position: inherit;
+    margin-left: 30px;
 }
 
-#cover-text h2 {
+#text h2 {
     color: brown
 }
 
