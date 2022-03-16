@@ -93,7 +93,7 @@ The steps to deploy are as follows:
 * In the GitHub repository, I navigate to the Settings tab;
 * From the source section drop-down menu, I select the Main Branch;
 * Once the master branch has been selected, the page refreshed with a detailed ribbon display to indicate the successful deployment;
-* The site is published at (https://joanavrsilva.github.io/dogs-owners-club/).
+* The site is published at [Copy Dog Owners Club](https://joanavrsilva.github.io/copy-dog-owners-club/).
 
 ## Issues and changes
 Unfortunately after deployment I had to make more changes than I expected:
