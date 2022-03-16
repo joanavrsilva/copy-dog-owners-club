@@ -1,104 +1,137 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Dog Owners Club 
+Dog Owners Club is a fictional website where Dublin's dog owners can find activities for them and their pets.
+The site also features an image gallery and a "Contact" page as well as links to the organization's social media platforms.
 
-Welcome joanavrsilva,
+![respossiveness dog owners club](https://user-images.githubusercontent.com/83631970/158605251-4530cc60-4726-4dc5-8332-ff2b4d07fc0b.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+This project consists of a copy of the project I created, [Dog Owners Club](https://joanavrsilva.github.io/dog-owners-club/), for submission during the Code Institute course.
 
-## Gitpod Reminders
+In this repository I will make some changes that I want to add later to the original project.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+You can see this live site version in [Copy Dog Owners Club](https://joanavrsilva.github.io/copy-dog-owners-club/).
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## Features
+The website consists of four pages: Home, Gallery, Contact and Submit. Three are accessible from a navigation menu and one is a submission confirmation page for a form.
 
-Another blue button should appear to click: _Open Browser_.
+* Navigation bar
+    * In the left side there is a page logo Dog Club Owners. 
+    * On the right side there are three links: Home, Gallery, Contact.
+    * The navigation bar is visible on the top of each page.
+    ![navigation bar](https://user-images.githubusercontent.com/83631970/158605805-23f3e498-6537-446c-aa81-adc52f61a85d.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* The landing page image
+    * The landing includes a dog's photography and a text overlay with a little description about the website purpose.
+    ![landing image](https://user-images.githubusercontent.com/83631970/158606352-0ce03df7-6d6d-4070-a98d-a7493a2e7352.png)
 
-A blue button should appear to click: _Make Public_,
+* About Us and Reasons why dogs make the coolest pets
+    * These sections explain why the site was created and give some reasons why it's good to have a dog.
+    ![reasons and about](https://user-images.githubusercontent.com/83631970/158608379-72a564e8-b658-446d-9ba0-1b02c750b7b2.png)
 
-Another blue button should appear to click: _Open Browser_.
+* Upcoming events
+    * This section will allow the user to see the upcommig events and when they will happen,the name of the events, the place and time they start.
+    * This section will be updated with new events.
+    ![upcoming events](https://user-images.githubusercontent.com/83631970/158607871-03a29b44-11e8-4f34-bfd9-ef0adb37e511.png)
+ 
+* Footer
+    * The footer includes links to the relevant social media sites for Dog Owners Club.
+    * The footer is consistent on all pages.
+    * Each link will open in a separate tab in a browser.
+    ![footer](https://user-images.githubusercontent.com/83631970/158607960-cd6f5b71-72c3-47b5-a17e-147dc0287418.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Gallery
+    * The gallery provide the user with some images about the club events.
+    * This section bring value to the user as they will be able to see the diferents types of events the club provides.
+    ![Gallery](https://user-images.githubusercontent.com/83631970/158610173-12407b2d-e583-46b8-a0be-5c1226892b70.png)
 
-To log into the Heroku toolbelt CLI:
+* Contact
+    * The contact page contains a form that the user can fill. It's required fill the entire form to submit. 
+    ![submit form](https://user-images.githubusercontent.com/83631970/158610260-e310627c-cf1a-4b66-9a42-c60f6b25f312.png)
+    * Below the form there is the club contacts information with the club's name, a adress, a phone number and a email.
+    ![contact](https://user-images.githubusercontent.com/83631970/158609511-3ceaf42c-4797-4724-97b2-5426f980882b.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Submit
+    * After submitting the contact page form, a page appears with the following sentence: "Your request has been successfully submitted, we will contact you shortly." and a thank you video.
+    ![submitted](https://user-images.githubusercontent.com/83631970/158610615-57736d36-c485-4a12-9143-92a887d83767.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* Colors
+    * background color: #ccddff
+    * font color: #6217ee
+    * link color: #ff6600
+    * hoover color: #ff9000
 
-------
+* Fonts
+    * Lato
+    * Osmald
+    * Sans-serif (backup front)
 
-## Release History
+### Tecnologies Used
+* HTML5 
+* CSS
+* Git
+* GitHub
+* Gitpod
+* Google fonts
+* Font Awesome 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Gallery
+* The gallery shows the user some of the club's events;
+* The user can understand the variety of events that the club offers;
+* In this section I use the Gallery code as taught in the Love Running Project with some changes.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Footer
+* Consistent on all pages with social links.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Testing
+#### Code Validation
+* CSS
+    * W3C CSS Validator - All errors have been fixed.
+* HTML
+    * Nu Html Checker - All errors have been fixed, except for video.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+#### Performance testing
+* Lighthouse performace - 84% (insert screen shoot).
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Deployment
+* The project was deployed on GitHub Pages.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The steps to deploy are as follows:
+* In the GitHub repository, I navigate to the Settings tab;
+* From the source section drop-down menu, I select the Main Branch;
+* Once the master branch has been selected, the page refreshed with a detailed ribbon display to indicate the successful deployment;
+* The site is published at (https://joanavrsilva.github.io/dogs-owners-club/).
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Issues and changes
+Unfortunately after deployment I had to make more changes than I expected:
+* I changed the media queries;
+* I beautify the code manually and added some comments;
+* I fixed the about and reasons text and added a font awsome icon to the about;
+* I deleted a sign up page;
+* I added a form to the contact page;
+* I created a submit page and added a video;
+* I changed text colors and background color;
+* I completed the readme file.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### New changes
+In this copy of my original project I implemented the following changes:
+- [x] Improve website responsiveness;
+- [x] Correct error from video that appears after form submission;
+- [x] Add readme images. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Credits
+* Code
+    * I used the Code Institute student template (https://github.com/Code-Institute-Org/gitpod-full-template);
+    * I used code from the Code Institute Love Running Project for the website structure, organization, upcoming events, social media and media queries;
+    * For the contact page form I used the w3schools code (whttps://www.w3schools.com/html/html_forms.asp).
+    * For the video I used the w3schools code (https://www.w3schools.com/html/html5_video.asp)
+* Content
+    * The upcomming events names are based in some United States events (https://vacationidea.com/ideas/best-dog-events.html);
+    * The reasons section has been based in the 10 Science-Based Benefits of Having a Dog (https://www.akc.org/expert-advice/lifestyle/10-science-based-benefits-dog/);
+    * The telephone number was generated by a fake generator (https://fakenumber.org/ireland);
+    * The adress  was generated by a fake generator (https://www.fakeaddressgenerator.com/All_countries/address/country/Ireland).
+* Images
+    * All the images are from Pexels (https://www.pexels.com/). The home page picture was edited in powerpoint;
+    * All the icons are from Font Awesome (fontawesome.com).
+* Video
+    * The video is from Pexels (https://www.pexels.com/)
