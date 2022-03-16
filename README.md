@@ -42,6 +42,8 @@ The website consists of four pages: Home, Gallery, Contact and Submit. Three are
 * Gallery
     * The gallery provide the user with some images about the club events.
     * This section bring value to the user as they will be able to see the diferents types of events the club provides.
+    * The user can understand the variety of events that the club offers;
+    * In this section I use the Gallery code as taught in the Love Running Project with some changes.
     ![Gallery](https://user-images.githubusercontent.com/83631970/158610173-12407b2d-e583-46b8-a0be-5c1226892b70.png)
 
 * Contact
@@ -52,7 +54,7 @@ The website consists of four pages: Home, Gallery, Contact and Submit. Three are
 
 * Submit
     * After submitting the contact page form, a page appears with the following sentence: "Your request has been successfully submitted, we will contact you shortly." and a thank you video.
-    ![submitted](https://user-images.githubusercontent.com/83631970/158610615-57736d36-c485-4a12-9143-92a887d83767.png)
+    ![submitted](https://user-images.githubusercontent.com/83631970/158611685-40df07f5-7e0e-4dbf-9b35-a43a0fe96761.png)
 
 * Colors
     * background color: #ccddff
@@ -65,7 +67,7 @@ The website consists of four pages: Home, Gallery, Contact and Submit. Three are
     * Osmald
     * Sans-serif (backup front)
 
-### Tecnologies Used
+## Tecnologies Used
 * HTML5 
 * CSS
 * Git
@@ -74,26 +76,17 @@ The website consists of four pages: Home, Gallery, Contact and Submit. Three are
 * Google fonts
 * Font Awesome 
 
-### Gallery
-* The gallery shows the user some of the club's events;
-* The user can understand the variety of events that the club offers;
-* In this section I use the Gallery code as taught in the Love Running Project with some changes.
-
-
-### Footer
-* Consistent on all pages with social links.
-
-### Testing
-#### Code Validation
+## Testing
+### Code Validation
 * CSS
     * W3C CSS Validator - All errors have been fixed.
 * HTML
     * Nu Html Checker - All errors have been fixed, except for video.
 
-#### Performance testing
+### Performance testing
 * Lighthouse performace - 84% (insert screen shoot).
 
-### Deployment
+## Deployment
 * The project was deployed on GitHub Pages.
 
 The steps to deploy are as follows:
@@ -102,7 +95,7 @@ The steps to deploy are as follows:
 * Once the master branch has been selected, the page refreshed with a detailed ribbon display to indicate the successful deployment;
 * The site is published at (https://joanavrsilva.github.io/dogs-owners-club/).
 
-#### Issues and changes
+## Issues and changes
 Unfortunately after deployment I had to make more changes than I expected:
 * I changed the media queries;
 * I beautify the code manually and added some comments;
@@ -113,13 +106,24 @@ Unfortunately after deployment I had to make more changes than I expected:
 * I changed text colors and background color;
 * I completed the readme file.
 
-#### New changes
+### New changes/ Future Changes
 In this copy of my original project I implemented the following changes:
 - [x] Improve website responsiveness;
 - [x] Correct error from video that appears after form submission;
 - [x] Add readme images. 
 
-### Credits
+To implement:
+- [ ] User stories
+- [ ] Wireframes
+- [ ] Lighthouse report image
+- [ ] Improve credits links
+- [ ] Improve view laptop
+- [ ] Reduce submit form size
+- [ ] Add logo topic
+- [ ] Add landing page text readme image
+- [ ] Add table of contents
+
+## Credits
 * Code
     * I used the Code Institute student template (https://github.com/Code-Institute-Org/gitpod-full-template);
     * I used code from the Code Institute Love Running Project for the website structure, organization, upcoming events, social media and media queries;
