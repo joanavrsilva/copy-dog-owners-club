@@ -124,6 +124,7 @@ To implement:
 - [ ] Add table of contents 
 - [ ] Add color chart
 - [ ] Add images of responsiveness in diferent view's
+- [ ] Insert lighthouse report image
 
 ## Credits
 * Code
