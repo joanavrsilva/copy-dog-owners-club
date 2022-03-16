@@ -121,7 +121,9 @@ To implement:
 - [ ] Reduce submit form size
 - [ ] Add logo topic
 - [ ] Add landing page text readme image
-- [ ] Add table of contents
+- [ ] Add table of contents 
+- [ ] Add color chart
+- [ ] Add images of responsiveness in diferent view's
 
 ## Credits
 * Code
